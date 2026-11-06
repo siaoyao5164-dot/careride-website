@@ -26,7 +26,7 @@ export const Route = createRootRoute({
       { name: 'geo.region', content: 'MY-07' },
       { name: 'geo.placename', content: 'Penang' },
       ...(business.googleSiteVerification
-        ? [{ name: 'google-site-verification', content: business.googleSiteVerification }]
+        { name: 'google-site-verification', content: 'vq07lxpZ5CpbdJNetfavcpDnjV5C5NeCQjPAGrUPuMs' },
         : []),
       { property: 'og:site_name', content: business.name },
       { property: 'og:title', content: title },
