@@ -19,7 +19,7 @@ export const business = {
    * Google Search Console "HTML tag" verification code (only the content value).
    * Leave empty until Google gives you a code. See README.md for instructions.
    */
-  googleSiteVerification: '',
+  googleSiteVerification: 'vq07lxpZ5CpbdJNetfavcpDnjV5C5NeCQjPAGrUPuMs',
   seo: {
     title: 'CareRide Penang | Private Car & Hospital Transport Service',
     description:
