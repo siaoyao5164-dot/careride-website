@@ -15,7 +15,7 @@ export const business = {
   siteUrl: 'https://careride-website.netlify.app',
   /** Minimum days in advance a customer should book. */
   minBookingDaysAhead: 3,
-  /**
+    /**
    * Google Search Console "HTML tag" verification code (only the content value).
    * Leave empty until Google gives you a code. See README.md for instructions.
    */
