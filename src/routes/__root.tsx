@@ -25,9 +25,9 @@ export const Route = createRootRoute({
       { name: 'theme-color', content: '#1f7a7a' },
       { name: 'geo.region', content: 'MY-07' },
       { name: 'geo.placename', content: 'Penang' },
-      ...(business.googleSiteVerification
-    { name: 'google-site-verification', content: 'vq07lxpZ5CpbdJNetfavcpDnjV5C5NeCQjPAGrUPuMs' },
-        : []),
+    ...(business.googleSiteVerification
+  ? [{ name: 'google-site-verification', content: business.googleSiteVerification }]
+  : []),
       { property: 'og:site_name', content: business.name },
       { property: 'og:title', content: title },
       { property: 'og:description', content: description },
